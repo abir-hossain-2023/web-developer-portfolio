@@ -148,6 +148,7 @@ main{
     width: 1140px;
     margin: 0px auto;
 }
+main section{margin-top: 130px;}
 .about{
     padding: 130px;
     margin: 130px 0px;
@@ -181,8 +182,16 @@ gap: 24px;
 }
 .skill-description{
     padding-top: 30px;
+    color: #757575;
 
 }
 .skill-title{
     padding-top: 20px;
+}
+
+.resume-column-title{
+    color:#474747;
+font-size: 30px;
+font-weight: 700;
+line-height: normal;
 }
