@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 /*shared style*/
 body{font-family: 'Open Sans', sans-serif;}
 nav {
@@ -11,7 +14,24 @@ nav {
 font-size: 45px;
 font-weight: 800;
 
+
 }
+.section-title{color: #181818;
+    text-align: center;
+    
+    font-size: 35px;
+   
+    font-weight: 700;
+   }
+   .section-description{
+    color:  #757575;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 20px;
+   }
 nav ul{
     display: flex;
     align-items: center;
@@ -41,6 +61,13 @@ border: 0px;
 }
 .header{
     background-color: #FFF8F3;
+    padding-left: 200px;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+   background-position:bottom right;
+   padding-top: 20px;
+   
+
 }
 .download-button{
     border-radius: 5px;
@@ -68,5 +95,72 @@ font-weight: 700;
 line-height: normal;
 border: 1px solid #FD6E0A;
 border-radius: 5px;
-paddi
+
+}
+.banner-container{
+    display: flex;
+    justify-content:space-between;
+
+    
+}
+.banner-title{
+    color: #181818;
+font-family: Open Sans;
+font-size: 55px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.nav-btn{
+    padding-right: 200px;
+}
+.profile-image{
+    padding-right: 70px;
+}
+.banner-greetings{
+    color: #474747;
+    padding-top: 130px;
+
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.heading-paragraph{
+    width: 50%;
+    padding-top: 40px;
+    font-weight: normal;
+}
+.download-button{
+    padding: 12px 13px 11px 31px;
+    font-size: 14px;
+   margin-top: 20px;
+  
+
+}
+.contact-button{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 12px 13px 11px 31px;
+    font-size: 14px;
+}
+main{
+    width: 1140px;
+    margin: 0px auto;
+}
+.about{
+    padding: 130px;
+    margin: 130px 0px;
+  border-radius: 10px;
+    background: #FFF8F3;;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
 }
